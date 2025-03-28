@@ -1,5 +1,5 @@
 import { searchImage } from "./js/pixabay-api.js";
-import { createGallery } from "./js/render-function";
+import { createGallery } from "./js/render-functions.js";
 
 import SimpleLightbox from "simplelightbox";
 import "simplelightbox/dist/simple-lightbox.min.css";
