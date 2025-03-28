@@ -96,25 +96,24 @@ button:hover{
 
 .gallery{
   display: grid;
-  display: flex;
-  flex-wrap: wrap;
+  grid-template-columns: repeat(3, 1fr);
   gap: 24px;
   list-style: none;
-  padding: 0;
-  margin: 0 156px; 
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0 auto;
   
 }
 
 .gallery-item {
   border:  1px solid #808080;
   overflow: hidden;
-  flex: 1 1 calc(33.33% - 24px);
   height: 200px;
   max-width: 360px;
   position: relative;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
  
   
