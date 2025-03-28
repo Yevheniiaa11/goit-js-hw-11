@@ -10,6 +10,11 @@ export default defineConfig(({ command }) => {
       [command === 'serve' ? 'global' : '_global']: {},
     },
     root: 'src',
+    server: {
+      hmr: {
+        overlay: false,
+      }
+    }, 
     build: {
       sourcemap: true,
       rollupOptions: {
